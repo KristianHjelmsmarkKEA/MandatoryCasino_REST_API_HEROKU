@@ -15,6 +15,7 @@ public class Casinos {
     public Iterable<Casino> getCasino() {
         return casinos.findAll();
     }
+    //test
 
     @GetMapping("/casinos/{id}")
     public Casino getCasinoById(@PathVariable Long id) {
